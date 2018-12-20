@@ -143,8 +143,8 @@ def login_in():
         EC.presence_of_element_located((By.CSS_SELECTOR, "#J_SubmitStatic"))
     )
 
-    username.send_keys("17516219953")
-    pwd.send_keys("jiayao13146688.")
+    username.send_keys()
+    pwd.send_keys()
     sumbit.click()
 
 if __name__=="__main__":
