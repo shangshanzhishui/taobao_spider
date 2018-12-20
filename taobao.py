@@ -121,6 +121,7 @@ def get_products():
 
         }
         print(product)
+        time.sleep(5)
         save_mongo(product)
 
 
